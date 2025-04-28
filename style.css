@@ -1,0 +1,309 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body {
+    font-family: "Source Sans 3", "Arial", sans-serif;
+}
+
+.top-section-wrapper {
+    background-color: #001D37;
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow: hidden;
+}
+
+.actual-top-content {
+    position: relative;
+    z-index: 5;
+}
+
+.top-section {
+    position: relative;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1066px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+    .top-section {
+        padding-top: 139px;
+        padding-bottom: 139px;
+    }
+}
+
+.top-section h1 {
+    font-size: 4rem;
+    margin: 0;
+    line-height: 97.3%;
+    font-weight: 700;
+    max-width: 611px;
+}
+
+@media screen and (min-width: 600px) {
+    .top-section h1 {
+        font-size: 6.25rem;
+    }
+}
+
+.intro-text {
+    font-size: 1.25rem;
+    line-height: 169.3%;
+    margin: 1rem 0;
+    max-width: 552px;
+}
+
+.intro-buttons {
+    margin-bottom: 70px;
+}
+
+@media screen and (min-width: 600px) {
+    .intro-buttons {
+        margin-bottom: 129px;
+    }
+}
+
+.our-btn {
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: #475AFF;
+    color: #FFF;
+    text-decoration: none;
+    padding: 13px 25px;
+    border: 2px solid #475AFF;
+    border-radius: 71px;
+    transition: all .3s ease-out;
+}
+
+.our-btn:hover {
+    background-color: #2E40E2;
+    border: 2px solid #2E40E2;
+}
+
+.our-btn--outline {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.our-btn--outline:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: #2E40E2;
+}
+
+@media screen and (min-width: 600px) {
+    .our-btn--outline {
+        margin-left: 0%;
+    }
+}
+
+.utility-mr {
+    margin-right: 10px;
+}
+
+/* .intro-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+} */
+
+.intro-features {
+    display: grid;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+@media screen and (min-width: 580px) {
+    .intro-features {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .intro-features {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.intro-feature {
+    padding: 33px 25px;
+    border: 1px solid rgba(255, 255, 255, .24);
+}
+
+.intro-feature h2 {
+    font-size: 1.5rem;
+    margin: 31px 0 3px 0;
+}
+
+.intro-feature p {
+    margin: 0;
+    font-size: 1.0625rem;
+}
+
+.circle {
+    position: absolute;
+    top: 62px;
+    right: -390px;
+    width: 617px;
+    height: 617px;
+    background-color: #D660FF;
+    opacity: .85;
+    border-radius: 50%;
+    filter: blur(150px);
+}
+
+.circle-two {
+    position: absolute;
+    top: -365px;
+    left: -123px;
+    width: 617px;
+    height: 617px;
+    background-color: #6079FF;
+    opacity: .85;
+    border-radius: 50%;
+    filter: blur(150px);
+}
+
+.page-section {
+    background-color: #FFF;
+    padding: 70px 16px;
+}
+
+@media screen and (min-width: 600px) {
+    .page-section {
+        padding: 130px 16px;
+    }
+}
+
+.page-section-inner {
+    max-width: 1066px;
+    margin: 0 auto;
+}
+
+.page-section-title {
+    font-size: 4rem;
+    margin: 0;
+    line-height: 1;
+}
+
+@media screen and (min-width: 600px) {
+    .page-section-title {
+        font-size: 5.31rem;
+    }
+}
+
+.vehicle-filter {
+    color: #9F9F9F;
+    font-size: 1.15rem;
+}
+
+
+.vehicle-filter button {
+    background-color: transparent;
+    border: none;
+    font-family: "Source Sans 3", "Arial", sans-serif;
+    font-size: 1.15rem;
+    color: #9F9F9F;
+}
+
+@media screen and (min-width: 600px) {
+
+    .vehicle-filter,
+    .vehicle-filter button {
+        font-size: 1.375rem;
+    }
+}
+
+.site-footer p {
+    text-align: center;
+    color: #A6A6A6;
+    font-size: 0.875rem;
+    margin: 0;
+    padding-bottom: 65px;
+}
+
+.list-of-vehicles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    column-gap: 34px;
+    row-gap: 16px
+}
+
+@media screen and (min-width: 600px) {
+    .list-of-vehicles {
+        row-gap: 28px
+    }
+}
+
+.vehicle-card {
+    display: grid;
+    /* 187 */
+    grid-template-columns: 165px 1fr;
+    border-radius: 20px;
+    border: 1px solid #F3F3F3;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .08);
+    overflow: hidden;
+}
+
+@media screen and (min-width: 600px) {
+    .vehicle-card {
+        grid-template-columns: 187px 1fr;
+    }
+}
+
+.vehicle-card-photo {
+    order: 1;
+    grid-row: 1;
+}
+
+.vehicle-card-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vehicle-card-text {
+    padding: 18px 16px;
+}
+
+@media screen and (min-width: 600px) {
+    .vehicle-card-text {
+        padding: 21px 29px;
+    }
+}
+
+.vehicle-card-text h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.625rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.vehicle-details {
+    list-style: none;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    color: #626262;
+    line-height: 150%;
+    font-size: .9rem;
+}
+
+@media screen and (min-width: 600px) {
+    .vehicle-details {
+        font-size: 1rem;
+    }
+}
+
+.vehicle-price {
+    margin: 0;
+    color: #A2A2A2;
+    font-size: 0.85rem;
+}
