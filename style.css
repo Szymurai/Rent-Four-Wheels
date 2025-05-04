@@ -5,6 +5,10 @@ html {
     background-color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Source Sans 3", "Arial", sans-serif;
 }
@@ -245,7 +249,7 @@ body {
 .vehicle-card {
     display: grid;
     /* 187 */
-    grid-template-columns: 165px 1fr;
+    grid-template-columns: 187px 1fr;
     border-radius: 20px;
     border: 1px solid #F3F3F3;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .08);
@@ -254,7 +258,7 @@ body {
 
 @media screen and (min-width: 600px) {
     .vehicle-card {
-        grid-template-columns: 187px 1fr;
+        grid-template-columns: 201px 1fr;
     }
 }
 
