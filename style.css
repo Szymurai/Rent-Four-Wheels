@@ -291,8 +291,11 @@ body {
     font-weight: 600;
 }
 
-.vehicle-details {
+.vehicle-details,
+.vehicle-description {
     list-style: none;
+    /* font-family: "Source Sans 3", "Arial", sans-serif;
+    font-weight: 100; */
     margin: 0 0 1rem 0;
     padding: 0;
     color: #626262;
@@ -301,7 +304,9 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-    .vehicle-details {
+
+    .vehicle-details,
+    .vehicle-description {
         font-size: 1rem;
     }
 }
