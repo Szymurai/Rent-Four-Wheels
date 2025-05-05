@@ -1,3 +1,22 @@
+/* CUSTOM FONTS */
+@font-face {
+    font-family: 'Bree';
+    src: url('../fonts/bree-2/Bree Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Bree';
+    src: url('../fonts/bree-2/Bree Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Bree';
+    src: url('../fonts/bree-2/Bree Light.otf') format('opentype');
+    font-weight: 300;
+}
+
 body,
 html {
     margin: 0;
@@ -204,6 +223,7 @@ body {
 }
 
 .vehicle-filter {
+    font-family: "Bree", "Source Sans 3", "Arial", sans-serif;
     color: #9F9F9F;
     font-size: 1.15rem;
 }
@@ -212,7 +232,8 @@ body {
 .vehicle-filter button {
     background-color: transparent;
     border: none;
-    font-family: "Source Sans 3", "Arial", sans-serif;
+    /* font-family: "Source Sans 3", "Arial", sans-serif; */
+    font-family: "Bree", "Source Sans 3", "Arial", sans-serif;
     font-size: 1.15rem;
     color: #9F9F9F;
 }
@@ -285,6 +306,7 @@ body {
 }
 
 .vehicle-card-text h3 {
+    font-family: "Bree", "Source Sans 3", "Arial", sans-serif;
     margin: 0 0 5px 0;
     font-size: 1.625rem;
     line-height: 1;
@@ -294,8 +316,8 @@ body {
 .vehicle-details,
 .vehicle-description {
     list-style: none;
-    /* font-family: "Source Sans 3", "Arial", sans-serif;
-    font-weight: 100; */
+    font-family: "Bree", "Source Sans 3", "Arial", sans-serif;
+    font-weight: 100;
     margin: 0 0 1rem 0;
     padding: 0;
     color: #626262;
